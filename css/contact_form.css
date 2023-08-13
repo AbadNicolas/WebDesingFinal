@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(../images/sign.JPEG);
+}
+
+header{
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 40px;
+    /* border: black solid;
+    background-color: white; */
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .subnav .subnavbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: grey;
+  }
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 15;
+    background-color: grey;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+
+ .container {
+     width: 400px;
+} 
+
+h3{
+    text-align: center;
+}
+
+.info{
+  background-color: #8b9baa;
+}
+
+.button{
+width: 80px;
+height:25px;
+background-color: #798692;
+}
+p{
+  color: white;
+  text-align: justify;
+}

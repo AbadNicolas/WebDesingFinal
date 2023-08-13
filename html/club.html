@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Join us</title>
+    <style>
+        *{
+            box-sizing: border-box;
+         }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url("https://fastly.picsum.photos/id/79/2000/3011.jpg?hmac=TQsXWj0kLBLRXbSAh2Pygog1-cOefqpjEoKyl0uD3tg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+        }
+        h1 {
+            text-align: center;
+            color: white;
+            font-weight: bolder;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: #333; 
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+        }
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .subnav {
+            float: left;
+            overflow: hidden;
+        }
+        .subnav .subnavbtn {
+            font-size: 16px;  
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+        .navbar a:hover, .subnav:hover .subnavbtn {
+            background-color: grey;
+         }
+         
+         .subnav-content {
+            display: none;
+            position: absolute;
+            left: 10;
+            background-color: grey;
+            width: 100%;
+            z-index: 1;
+        }
+        .subnav-content a {
+            float: left;
+            color: white;
+            text-decoration: none;
+        }
+        .subnav-content a:hover {
+             background-color: #eee;
+            color: black;
+        }
+        .subnav:hover .subnav-content {
+            display: block;
+        }
+                           
+    </style>
+</head>
+<body>
+    <h1>Join us</h1>
+    <div class="navbar">
+        <a href="../index.html">Home</a>
+        <div class="subnav">
+          <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="#Club">Club</a>
+            <a href="#Member">Members</a>
+            <a href="#careers">Opportunities</a>
+          </div>
+        </div> 
+        <div class="subnav">
+          <button class="subnavbtn">Activities <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="upcoming.html">Hiking</a>
+            <a href="#deliver">Bike</a>
+            <a href="#package">Barbeque</a>
+            <a href="#express">Camping</a>
+          </div>
+        </div> 
+        <div class="subnav">
+          <button class="subnavbtn">Account <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="#link1">Register</a>
+            <a href="../html/sign_in.html">Sign in</a>
+          </div>
+        </div>
+        <a href="../html/contact_form.html">Contact</a>
+      </div>
+    
+    <hr>
+    <div id="video-container">
+        <!-- Replace the YouTube video link below with the embed link provided by YouTube -->
+        <iframe id="video-player" width="760" height="515" src="https://www.youtube.com/embed/egQL4W8BuUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
